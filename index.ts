@@ -108,3 +108,15 @@ for (let index in blog) {
     document.getElementById("demo4").innerHTML = "Created:"+x;
     document.getElementById("demo5").innerHTML = "Created:"+x;
     document.getElementById("demo6").innerHTML = "Created:"+x;
+
+ //sort by asc and desc
+
+ const list = [
+  { date: '12/09/2019' },
+  { date: '12/10/2019' },
+  { date: '03/11/2019' },
+  { date: '12/11/2019' },
+  { date: '12/12/2019' }
+]
+
+list.sort((a, b) => (a.date > b.date) ? 1 : -1)
