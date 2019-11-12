@@ -68,8 +68,8 @@ var travelb = new basicinfo("Taipei 101", "No. 7, Section 5, Xinyi Road, Xinyi D
 // document.getElementById("tra2").innerHTML=travelb.traveldisplay();
 var resta = new webpage("Quick Bite", "No. 5, Liyi Road, Xinyi DistrictTaipei City, Taiwan 110", "https://www.dintaifung.com.tw/", "+886 2 8101 7780");
 var restb = new webpage("Guabao", "No. 20, Section 5, Xinyi Road, Xinyi DistrictTaipei City, Taiwan ", "https://www.dintaifung.com.tw/", "+886 2 8101 7780");
-var musica = new price("Lukas Meldem", "No. 5, National Music Hall,Taipei City, Taiwan", "+886 2 8101 7780", "https://www.artsticket.com.tw/", "50 euro");
-var musicb = new price("The Four Quarters", "No. 5, National Music Hall,Taipei City, Taiwan", "+886 2 8101 7780", "https://www.artsticket.com.tw/", "80 euro");
+var musica = new price("Lucia Melone", "No. 5, National Music Hall,Taipei City, Taiwan", "+886 2 8101 7780", "https://www.artsticket.com.tw/", "50 euro");
+var musicb = new price("Michela Arancia", "No. 5, National Music Hall,Taipei City, Taiwan", "+886 2 8101 7780", "https://www.artsticket.com.tw/", "80 euro");
 var blog = [travela, travelb, resta, restb, musica, musicb];
 for (var index in blog) {
     document.getElementsByClassName("tra")[index].innerHTML += blog[index].display();
