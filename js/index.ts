@@ -95,7 +95,7 @@ var blog = [travela, travelb,resta,restb,musica,musicb];
 
 
 for (let index in blog) {
-	document.getElementsByClassName("tra")[index].innerHTML += blog[index].display();
+	document.getElementsByClassName("tra")[index].innerHTML+= blog[index].display();
 	}
 
 
