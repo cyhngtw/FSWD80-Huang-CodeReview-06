@@ -72,7 +72,7 @@ var musica = new price("Lucia Melone", "No. 5, National Music Hall,Taipei City, 
 var musicb = new price("Michela Arancia", "No. 5, National Music Hall,Taipei City, Taiwan", "+886 2 8101 7780", "https://www.artsticket.com.tw/", "80 euro");
 var blog = [travela, travelb, resta, restb, musica, musicb];
 for (var index in blog) {
-    document.getElementsByClassName("tra")[index].innerHTML += blog[index].display();
+    document.getElementsByClassName("tra")[index].innerHTML+= blog[index].display();
 }
 //last modified time
 var x = document.lastModified;
